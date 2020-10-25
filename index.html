@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ToDo list application">
+  <title>ToDo list</title>
+  <link rel="icon" type="image/png" href="img/list.png">
+  <!-- styles -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap+Condensed:wght@600&display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Noto+Sans+JP:wght@100&display=swap"
+              rel="stylesheet">
+  <link rel="stylesheet" 
+        href="styles/style.css">
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <header class="header header_align">
+    <h1>Todo list</h1>
+    <div class = "counter">
+    </div>
+    <input id="toggle-all" class="input__toggle-all" type="checkbox" />
+    <input class="input input_display" placeholder="What needs to be done?">
+    <i class="fa fa-plus-square fa-2x" aria-hidden="true" ></i>
+  </header>
+  <section class="content">
+    <ul class="list list__content"></ul>
+    <ul class="list__pagination">
+      
+    </ul>
+  </section>
+  <footer class="footer">  
+    <button class="button button__show-all">All todos</button>
+    <button class="button button__show-active">Active todos</button>
+    <button class="button button__show-completed">Completed</button>
+    <button class="button button__clear-completed"><i class="fa fa-trash fa-lg"></i> Clear completed</button>
+  </footer>  
+ 
+</body>
+</html>
