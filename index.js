@@ -150,7 +150,7 @@ $(document).ready(() => {
     }
   };
 
-  const createPAgeNumbers = function() {
+  const createPageNumbers = function() {
     $(SELECTOR.PAGINATION).html('');
     const countOfItems = Math.ceil(visibleList.length / notesOnPage);
 
@@ -174,7 +174,7 @@ $(document).ready(() => {
     validateInput(text);
     addToDo(validatedText);
     filter();
-    createPAgeNumbers();
+    createPageNumbers();
     $(`<li> ${pageNumber} </li>`).addClass(SELECTOR.ACTIVE);
     makePagination(pageNumber);
     $(SELECTOR.TOGGLE_ALL).prop('checked', false);
