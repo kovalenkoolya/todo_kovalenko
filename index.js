@@ -180,6 +180,7 @@ $(document).ready(() => {
     $(SELECTOR.TOGGLE_ALL).prop('checked', false);
   };
 
+  
   $('button').hide();
 
   // Add todo by pressing enter

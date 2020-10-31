@@ -115,7 +115,6 @@ h1 {
   border: 2px solid #eee;
 }
 
-
 .list__content {
   height: 300px;
   margin-top: 20px;
@@ -125,7 +124,7 @@ h1 {
   background-color: #eee;
   border: 1px solid #888c89;
 }
-  
+
 .list__p {
   font-size: 18px;
   margin-top: 2px;
@@ -154,7 +153,6 @@ h1 {
 .list__pagination {
   margin: 15px 0 15px 0;
 }
-
 
 .list__pagination li.active {
   cursor: pointer;
