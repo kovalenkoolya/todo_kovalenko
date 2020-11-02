@@ -260,7 +260,7 @@ $(document).ready(() => {
     const elementId = event.target.id;
     deleteToDo(elementId);
     filter();
-    createPAgeNumbers();
+    createPageNumbers();
     makePagination(pageNumber);
 
     if (visibleList.length === 0) {
@@ -301,7 +301,7 @@ $(document).ready(() => {
       filter();
 
       render(visibleList);
-      createPAgeNumbers();
+      createPageNumbers();
       pageNumber = 1;
       makePagination(pageNumber);
   });

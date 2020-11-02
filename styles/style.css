@@ -11,18 +11,6 @@
   box-sizing: border-box;
 }
 
-:focus, :active {
-  outline: none;
-}
-
-a:focus, a:active {
-  outline: none;
-}
-
-nav, footer, header, aside {
-  display: block;
-}
-
 html, body {
   height: 100%;
   width: 100%;
@@ -37,38 +25,10 @@ input, button, textarea {
   font-family: inherit;
 }
 
-input::-ms-clear {
-  display: none;
-}
-
-button {
-  cursor: pointer;
-}
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 ul li {
   list-style-type: none;
 }
 
-img {
-  vertical-align: top;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: 400;
-}
 
 /*-------------------------------------*/
 body {
@@ -85,6 +45,11 @@ h1 {
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
   font-weight: bold;
+}
+
+.col-sm-11 {
+  margin-right: 0;
+  padding: 0;
 }
 
 .input__toggle-all {
